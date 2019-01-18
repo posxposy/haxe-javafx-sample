@@ -1,0 +1,17 @@
+-L hxjava
+-p src
+-m Main
+
+#Java FX dependencies
+-java-lib ./openjfx/javafx-swt.jar
+-java-lib ./openjfx/javafx.base.jar
+-java-lib ./openjfx/javafx.controls.jar
+-java-lib ./openjfx/javafx.fxml.jar
+-java-lib ./openjfx/javafx.graphics.jar
+-java-lib ./openjfx/javafx.media.jar
+-java-lib ./openjfx/javafx.media.jar
+-java-lib ./openjfx/javafx.web.jar
+#--------------------
+
+-java ./out
+-cmd java -jar ./out/Main.jar
